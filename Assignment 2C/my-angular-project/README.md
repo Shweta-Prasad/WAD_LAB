@@ -1,6 +1,3 @@
-
----
-
 ##  **Installation & Setup**   
 
 ### **1️. Clone the Repository**
