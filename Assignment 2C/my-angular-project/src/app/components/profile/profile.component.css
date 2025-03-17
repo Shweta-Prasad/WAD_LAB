@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200..900&display=swap");
+
+body {
+  background-color: #F9E1E0; /* Soft Pink */
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Profile container */
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #ddd; /* Subtle border */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: 50px auto; /* Centers the card */
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+h2 {
+  margin-bottom: 20px;
+  color: #BC85A3; /* Muted Purple */
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+ul li {
+  font-family: "Inter", sans-serif;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #5D5D7E; /* Deep Purple-Gray */
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Logout button */
+button {
+  font-family: "Poppins", sans-serif;
+  background-color: #9799BA; /* Soft Blue-Purple */
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+button:hover {
+  background-color:  #BC85A3; /* Muted Purple */
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+}
