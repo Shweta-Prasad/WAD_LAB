@@ -1,21 +1,26 @@
-##  **Installation & Setup**   
+## **Installation & Setup**  
 
-### **1️. Clone the Repository**
+### **1️. Clone the Repository**  
 ```bash
 git clone https://github.com/Shweta-Prasad/WAD_LAB.git
 cd Assignment\ 2C/my-angular-project
 ```
 
-### **2️. Install Dependencies**
+### **2️. Install Angular CLI (If Not Installed)**    
+```bash
+npm install -g @angular/cli
+```
+
+### **3️. Install Project Dependencies**  
 ```bash
 npm install
 ```
 
-### **3️. Start the Development Server**
+### **4️. Start the Development Server**  
 ```bash
 ng serve
 ```
-Then, open **`http://localhost:4200/`** in your browser.
+Then, open **`http://localhost:4200/`** in your browser.  
 
 ---
 
