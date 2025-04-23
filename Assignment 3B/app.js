@@ -7,7 +7,7 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 
-// mongoose.connect('Insert connection string with appropriated password here')
+// mongoose.connect('connection string')
 //     .then(() => {
 //         console.log('Connected to MongoDB');
 //     })
@@ -16,7 +16,6 @@ app.use(bodyParser.json());
 //     }
 //     );
 
-mongoose.connect('mongodb+srv://recipeBlog:Shweta1234@cluster0.w7qmg.mongodb.net/student')
 
 const StudentSchema = new mongoose.Schema({
     name: String,
